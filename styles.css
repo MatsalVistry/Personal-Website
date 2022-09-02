@@ -16,7 +16,7 @@
     width: 100vw;
 }
 
-h1 
+.intro_header
 {
     letter-spacing: 0.05em;
     padding-top: 10%;
@@ -25,7 +25,7 @@ h1
     text-align: center;
 }
 
-h3 
+.intro_header_title 
 {
     color: #dfcc5c;
     font-size: 2em;
@@ -37,13 +37,15 @@ h3
 {
     font-weight: 100;
     font-size: 1.5em;
-    border: 3px solid white;
+    border: 2px solid white;
     color: white;
     border-radius: 10px;
     padding: 10px;
     width: 50%;
     margin: auto;
     text-align: center;
+    background-color: white;
+    color: black;
 } 
 
 .landing_horizontal 
@@ -87,4 +89,96 @@ h3
 {
     background-color: #ddd;
     color: black;
+}
+
+.portfolio_header 
+{
+    font-size: 3em;
+    font-weight: 1;
+    text-align: center;
+    padding-top: 10vh;
+    color: rgb(69, 67, 67);
+    padding-bottom: 10vh;
+}
+
+.portfolio
+{
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vh;
+    margin: 5vh;
+    padding: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card_project
+{
+    font-size: 2em;
+    font-weight: 1;
+    text-align: center;
+    color: rgb(69, 67, 67);
+    padding-bottom: 1vh;
+}
+
+.card_title
+{
+    font-size: 1.5em;
+    font-weight: 1;
+    text-align: center;
+    color: rgb(124, 123, 123);
+}
+
+.card_description
+{
+    font-size: 1em;
+    font-weight: 1;
+    text-align: left;
+    color: rgb(69, 67, 67);
+    padding-bottom: 1vh;
+}
+
+.card_description 
+{
+    padding: 3vh;
+    font-size: 2vh;
+}
+
+.card_list_item
+{
+    padding: .5vh;
+}
+
+.image_and_title 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card_image 
+{
+    padding-left: 1vh;
+    height: 3vh;
+    width: 3vh;
+}
+
+.card_image:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.card_holder_row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
