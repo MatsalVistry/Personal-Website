@@ -2,11 +2,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+
     </head>
     <body>
         <div class="navbar">
-            <a href="#landing">Home</a>
-            <a href="#landing">Technical Portfolio</a>
+            <a href="#landing" onclick="landingActivate()">Home</a>
+            <a href="#landing" onclick="portfolioActivate()">Technical Portfolio</a>
             <a href="#landing">Qualifications and Skills</a>
             <a href="#landing">Services</a>
             <a>Theme</a>
@@ -14,7 +15,15 @@
 
         <div class="landing">
             <h1 class="intro_header">Vatsal Mistry</h1>
-            <h3 class="intro_header_title">Software Engineer</h3>
+            <div class="intro_subheader">
+                <h3 class="intro_header_title">
+                    Software Engineer
+                    <a href="https://github.com/MatsalVistry" target="_blank">
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </a>
+                </h3>
+
+            </div>
 
             <div class="landing_horizontal">
                 <p class="introduction">
@@ -169,5 +178,8 @@
                 </div>
             </div>
         </div>
+
+        <script src="./script.js"></script>
+
     </body>
 </html>
