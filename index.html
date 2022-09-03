@@ -6,11 +6,11 @@
     </head>
     <body>
         <div class="navbar">
-            <a href="#landing" onclick="landingActivate()">Home</a>
-            <a href="#landing" onclick="portfolioActivate()">Technical Portfolio</a>
-            <a href="#landing">Qualifications and Skills</a>
-            <a href="#landing">Services</a>
-            <a>Theme</a>
+            <a onclick="landingActivate()">Home</a>
+            <a onclick="portfolioActivate()">Technical Portfolio</a>
+            <a onclick="qualificationsActivate()">Qualifications and Skills</a>
+            <a onclick="servicesActivate()">Services</a>
+            <a>Theme Swap</a>
         </div>
 
         <div class="landing">
@@ -180,7 +180,99 @@
             </div>
         </div>
 
-        <script src="./script.js"></script>
+        <div class="qualifications">
+            <h1 class="portfolio_header">
+                Qualifications and Skills
+                <img src="./images/resume_logo.png" class="resume_image">
+            </h1>
 
+            <div class="qualifications_body">
+                <p class="qualifications_text">
+                    A majority of my skillset revolves around backend development. 
+                    Solving logic problems, making optimizations, and finding clever solutions to complex tasks are some of the core 
+                    responsibilities of backend development, and align with my interests.
+                    <br><br>
+                    Although I intend to become a software engineer, I initially wanted to pursue a career in data science. 
+                    The idea of developing models to perform computations that aren't humanly possible is still fascinating to me. 
+                    That said, during a past data science internship, I found myself leaning towards development rather than analysis.
+                    Rather than tuning and constant iteration, I found myself enjoying the breadth of software engineering rather than 
+                    being a niche machine learning developer.
+                    <br><br>
+                    Constantly changing technologies are one of my favorite parts of software engineering. 
+                    In the past two years of being exposed to industry experience, I have learned and enjoyed the experience of working 
+                    with backend technologies, databases, cloud computing, and general tools. 
+                    <b></b>
+                    I have learned a lot through my internship experiences. 
+                    One of the biggest things being communication. 
+                    Not making assumptions and asking lots of questions can prevent lots of future issues and save time refactoring. 
+                    As an engineer, its natural to make a barebones plan and begin writing code for it, but this has almost always lead 
+                    to refactoring from my experience. 
+                    I also find communication to be very important when working in multidisciplinary teams since people always use
+                    technical language that is niche to their field. 
+                    This becomes exponentially worse the longer the clarifications are unresolved. 
+                    In my opinion, a good developer doesn't only write good code, but also communicates clearly about his current work 
+                    and future intentions.
+                    <br><br>
+                    My future goals are to become a solutions architect. 
+                    I can say this with confidence as it aligns with my interest in solving complex problems through past experience 
+                    and staying up to date with modern technologies.
+                </p>
+
+                <div class="qualifications_skills">
+                    <h2 class="skills_header">Skills</h2>
+                    <ul class="skills_list">
+                        <li class="skills_card">Java</li>
+                        <li class="skills_card">Python</li>
+                        <li class="skills_card">ASP.NET</li>
+                        <li class="skills_card">JS (Express.js, Node.js)</li>
+                        <li class="skills_card">C++</li>
+                        <li class="skills_card">SQL</li>
+                        <li class="skills_card">MongoDB Atlas</li>
+                        <li class="skills_card">AWS (CCP)</li>
+                        <li class="skills_card">Git</li>
+                        <li class="skills_card">Bash</li>
+                        <li class="skills_card">WSL</li>
+                        <li class="skills_card">Linux</li>
+                        <li class="skills_card">PuTTY</li>
+                        <li class="skills_card">Microcomputers</li>
+                        <li class="skills_card">Google Collab</li>
+                        <li class="skills_card">VS Code</li>
+                        <li class="skills_card">Heroku</li>
+                        <li class="skills_card">Docker</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <h1 class="portfolio_header">Services</h1>
+
+            <div class="services_body">
+                <div class="services_card">
+                    <h2 class="services_header">FRC Robotics</h2>
+                    <p class="services_text">
+                        I volunteer for the 5427 FRC robotics team on the outreach subteam.
+                        As a volunteer, I work with the outreach team to teach and introduce those who are interested in STEM to robotics.
+                        This includes other elementary schools, middle schools, and even other high schools. 
+                        I work to organize programming events to intruduce the application of programming in a real world setting
+                        through robotics.
+                    </p>
+                </div>
+                <div class="services_card">
+                    <h2 class="services_header">TAMU Roboster Robotics</h2>
+                    <p class="services_text">
+                        As a former developer and computer vision lead of the TAMU robomaster robotics team, I still consider myself an active
+                        member. 
+                        Members of the organization build multiple robots every single year to compete in competitions outlined by the 
+                        DJI organization. 
+                        As a mentor, I work to advise the computer vision team on direction and best practices. 
+                        I try to prioritize mentorship over direct programming as I beleive one of the best ways to teach is by letting 
+                        individuals experience mistakes and failures.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
     </body>
 </html>

@@ -38,7 +38,7 @@
 
 .introduction 
 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.5em;
     /* border-radius: 10px; */
     padding: 10px;
@@ -93,6 +93,7 @@
 {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
 }
 
 .portfolio_header 
@@ -117,12 +118,12 @@
 {
     background-color: rgb(249, 247, 247);
     width: 100%;
-    background-image: url("./images/img10.jpeg");
+    background-image: url("./images/img12.jpeg");
 }
 
 .card
 {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
     width: 30vw;
     height: 30vh;
@@ -174,6 +175,7 @@
 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .card_image 
@@ -194,4 +196,84 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.qualifications
+{
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+    background-image: url("./images/img12.jpeg");
+}
+
+.qualifications_body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1em;
+    font-weight: 1;
+    text-align: left;
+    color: black;
+}
+
+.qualifications_text
+{
+    padding: 5vh;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.qualifications_skills
+{
+    padding: 5vh;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-left: 5vh;
+}
+
+.resume_image 
+{
+    padding-left: 1vh;
+    height: 5vh;
+    width: 5vh;
+}
+
+.resume_image:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.services
+{
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+    background-image: url("./images/img12.jpeg");
+}
+
+.services_card
+{
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vh;
+    margin: 5vh;
+    padding: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+.services_body
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1em;
+    font-weight: 1;
+    text-align: left;
+    color: black;
 }
