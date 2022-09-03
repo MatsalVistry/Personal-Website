@@ -2,12 +2,12 @@
 {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .landing 
 {
-    background-image: url("./images/img10.jpeg");
+    background-image: url("./images/img12.jpeg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,11 +22,15 @@
     color: white;
     font-size: 5em;
     text-align: center;
+    text-shadow: 2px 2px black;
+    /* font-family: "Helvetica"; */
+
+
 }
 
 .intro_header_title 
 {
-    color: rgb(27, 27, 27);
+    color: white;
     font-size: 2em;
     font-weight: 100;
     text-align: center;
@@ -34,16 +38,18 @@
 
 .introduction 
 {
-    font-weight: 100;
+    font-weight: bold;
     font-size: 1.5em;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     width: 50%;
     margin: auto;
-    text-align: center;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 3px solid white;
+    text-align: left;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 3px solid white; */
 } 
 
 .landing_horizontal 
