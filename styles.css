@@ -2,7 +2,7 @@
 {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Varela Round", sans-serif;;
 }
 
 .landing 
@@ -23,14 +23,11 @@
     font-size: 5em;
     text-align: center;
     text-shadow: 2px 2px black;
-    /* font-family: "Helvetica"; */
-
-
 }
 
 .intro_header_title 
 {
-    color: white;
+    color: #F6B352;
     font-size: 2em;
     font-weight: 100;
     text-align: center;
@@ -40,7 +37,7 @@
 {
     /* font-weight: bold; */
     font-size: 1.5em;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     padding: 10px;
     width: 50%;
     margin: auto;
@@ -48,8 +45,8 @@
     color: white;
     text-shadow: 1.5px 1.5px black;
 
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 3px solid white; */
+    background-color: #1F2124;
+    border: 3px solid #F6B352;
 } 
 
 .landing_horizontal 
@@ -65,7 +62,7 @@
     height: 40vh;
     width: 40vh;
     border-radius: 30%;
-    border: 3px solid white;
+    border: 3px solid #F6B352;
     margin-right: 30vh;
 }
 
@@ -82,7 +79,7 @@
 .navbar a 
 {
     float: left;
-    color: white;
+    color: #F6B352;
     text-align: center;
     padding: 15px 20px;
     width: 20%;
@@ -102,16 +99,16 @@
     font-weight: 1;
     text-align: center;
     padding-top: 10vh;
-    color: rgb(27, 27, 27);
+    color: white;
     padding-bottom: 10vh;
     
 
-    border: 2px solid white;
+    border: 2px solid #F6B352;
     border-radius: 5px;
     width: 40%;
     margin: auto;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #1F2124;
 }
 
 .portfolio
@@ -123,23 +120,24 @@
 
 .card
 {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: #1F2124;
     border-radius: 10px;
-    width: 30vw;
-    height: 30vh;
+    width: 35vw;
+    height: 35vh;
     margin: 5vh;
     padding: 2vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    overflow: hidden;
+    overflow-y: hidden;
+    border: 2px solid #F6B352;
 }
 
 .card_project
 {
     font-size: 2em;
     font-weight: 1;
-    text-align: center;
-    color: rgb(69, 67, 67);
+    text-align: left;
+    color: white;
     padding-bottom: 1vh;
 }
 
@@ -147,8 +145,7 @@
 {
     font-size: 1.5em;
     font-weight: 1;
-    text-align: center;
-    color: rgb(124, 123, 123);
+    color: #F6B352;
 }
 
 .card_description
@@ -156,7 +153,7 @@
     font-size: 1em;
     font-weight: 1;
     text-align: left;
-    color: rgb(69, 67, 67);
+    color: white;
     padding-bottom: 1vh;
 }
 
@@ -200,7 +197,7 @@
 
 .qualifications
 {
-    background-color: rgb(249, 247, 247);
+    background-color: #1F2124;
     width: 100%;
     background-image: url("./images/img12.jpeg");
 }
@@ -221,17 +218,29 @@
 {
     padding: 5vh;
     width: 40%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #1F2124;
+    color: white;
     border-radius: 10px;
+    border: 2px solid #F6B352;
+
+}
+
+.skills_header
+{
+    color:#F6B352;
+    padding-bottom: 2vh;
+    text-align: center;
 }
 
 .qualifications_skills
 {
     padding: 5vh;
     width: 10%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #1F2124;
     border-radius: 10px;
     margin-left: 5vh;
+    border: 2px solid #F6B352;
+    color: white;
 }
 
 .resume_image 
@@ -252,28 +261,38 @@
     background-color: rgb(249, 247, 247);
     width: 100%;
     background-image: url("./images/img12.jpeg");
+    min-height: 100vh;
+    max-height: fit-content;
 }
 
 .services_card
 {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: #1F2124;    
     border-radius: 10px;
     width: 30vw;
-    height: 30vh;
+    height: 40vh;
+    display: block;
+    overflow: auto;
     margin: 5vh;
     padding: 5vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    text-align: center;
     overflow: hidden;
+    border: 2px solid #F6B352;
+    color: white;
+}
+
+.services_subheader
+{
+    color:#F6B352;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 
 .services_body
 {
     display: flex;
     justify-content: center;
-    height: 100vh;
     font-size: 1em;
     font-weight: 1;
-    text-align: left;
     color: black;
 }
