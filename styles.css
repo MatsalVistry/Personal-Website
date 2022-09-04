@@ -35,7 +35,6 @@
 
 .introduction 
 {
-    /* font-weight: bold; */
     font-size: 1.5em;
     border-radius: 10px;
     padding: 10px;
@@ -222,8 +221,37 @@
     color: white;
     border-radius: 10px;
     border: 2px solid #F6B352;
+}
+
+.qualifications_side
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: fit-content;
+    margin-left: 5vh;
 
 }
+
+.resume_button
+{
+    display: block;
+    background: #F6B352;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.9);
+    text-decoration: none;
+}
+
+.resume_button:hover 
+{
+    background-color: #f9d29b;
+}
+
 
 .skills_header
 {
@@ -235,10 +263,9 @@
 .qualifications_skills
 {
     padding: 5vh;
-    width: 10%;
+    width: fit-content;
     background-color: #1F2124;
     border-radius: 10px;
-    margin-left: 5vh;
     border: 2px solid #F6B352;
     color: white;
 }
