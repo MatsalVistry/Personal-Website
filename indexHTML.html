@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <nav class="navbar">
+            <a onclick="landingActivate()">Home</a>
+            <a onclick="portfolioActivate()">Technical Portfolio</a>
+            <a onclick="qualificationsActivate()">Qualifications and Skills</a>
+            <a onclick="servicesActivate()">Services</a>
+            <a>Theme Swap</a>
+        </nav>
+    </head>
+    <body>
+        <div class="landing">
+            <h1 class="intro_header">Vatsal Mistry</h1>
+            <div class="intro_subheader">
+                <h3 class="intro_header_title">Software Engineer</h3>
+            </div>
+
+            <div class="landing_horizontal">
+                <p class="introduction">
+                    Hi! I'm Vatsal. 
+                    I am an Honors Computer Science major attending Texas A&M University.
+                    <!-- My current experience revolves around backend technologies and machine learning. -->
+                    <br><br>
+                    I am a team player. Working with others is my preferred way to learn and grow. I am confident in my abilities
+                    and always looking to improve. 
+                    <br><br>
+                    I strive to be a software engineer at a major tech corporation.
+                </p>
+                <img src="./images/self_picture.png" class="portrait">
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <h1 class="portfolio_header">Technical Portfolio</h1>
+
+            <div class="card_holder_row">
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Paycom</h3>
+                        <img src="./images/paycom_logo.jpg" class="card_image">
+                    </div>
+
+                    <h4 class="card_title">Software Engineering Intern</h4>
+
+                    <ul class="card_description">
+                        <li class="card_list_item">Created a microservice for identity and access management using ASP.NET Core.</li>
+                        <li class="card_list_item">Refactored the existing database schema for permissions for normalization.</li>
+                        <li class="card_list_item">Implemented containerization for an independent frontend and backend.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://www.paycom.com" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Lynntech</h3>
+                        <img src="./images/lynntech_logo.png" class="card_image">
+                    </div>
+
+                    <h4 class="card_title">Data Science Intern</h4>
+
+                    <ul class="card_description">
+                        <li class="card_list_item">Developed a GUI overlay system from scratch for a live IR video feed in Python using OpenCV.</li>
+                        <li class="card_list_item">Implemented Deepface face detection and improved speed by 4.2x using FAISS acceleration.</li>
+                        <li class="card_list_item">Wrote a DC-GAN to generate images and utilized poisson blending to seamlessly stitch them together.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://www.lynntech.com/" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Robomaster Robotics</h3>
+                        <img src="./images/robomaster_logo.jpg" class="card_image">
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </div>
+
+                    <h4 class="card_title">Computer Vision Lead</h4>
+
+                    <ul class="card_description">
+                        <li class="card_list_item">Directed a team by delegating tasks, establishing deadlines, and managing a $3000 annual budget.</li>
+                        <li class="card_list_item">Trained a Yolov4 model for robot detection in Python and achieved 93% accuracy with 60 FPS.</li>
+                        <li class="card_list_item">Created a synchronous pipeline and wrapped functionality into APIs.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://tamurobomasters.com/" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                        <a href="https://github.com/TAMU-Robomasters/cv_main" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_holder_row">
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Edfusion</h3>
+                        <img src="./images/edfusion_logo.png" class="card_image">
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </div>
+                    <h4 class="card_title">Hackathon Developer</h4>
+                    <ul class="card_description">
+                        <li class="card_list_item">Created a desktop application for educators to host sessions.</li>
+                        <li class="card_list_item">Students can anonymously enter questions in each session to clear confusion in lectures.</li>
+                        <li class="card_list_item">Utilized Election.js, Node.js, and MongoDB Atlas, React.JS, and Heroku.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://devpost.com/software/edfusion" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                        <a href="https://github.com/MatsalVistry/EdFusion" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Dokanda</h3>
+                        <img src="./images/dokanda_logo.png" class="card_image">
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </div>
+                    <h4 class="card_title">Hackathon Developer</h4>
+                    <ul class="card_description">
+                        <li class="card_list_item">Created A web application where patients can call or chat with doctors for diagnoses based on symptoms.</li>
+                        <li class="card_list_item">Used Python BeautifulSoup web-scraping for disease data in order to preprocess diseases.</li>
+                        <li class="card_list_item">Utilized React.js, Node.js, Express.js, SQL.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://devpost.com/software/dokanda-b7ngsd" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                        <a href="https://github.com/MatsalVistry/dokanda" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Ecohub</h3>
+                        <img src="./images/ecohub_logo.png" class="card_image">
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </div>
+                    <h4 class="card_title">Hackathon Developer</h4>
+                    <ul class="card_description">
+                        <li class="card_list_item">Created an application for volunteers to host and enroll in sessions for environment cleanup.</li>
+                        <li class="card_list_item">Utilized google maps api in order to pinpoint locations for users.</li>
+                        <li class="card_list_item">Implemented database using firebase and frontend/backend in dart and flutter.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://devpost.com/software/ecohub-svbi1y" target="_blank" class="card_button_link">
+                            <button class="card_button">Learn More</button>
+                        </a>
+                        <a href="https://github.com/MatsalVistry/ecohub" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_holder_row">
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Chess AI</h3>
+                        <img src="./images/github_logo.png" class="card_image" >
+                    </div>
+                    <h4 class="card_title">Personal Project</h4>
+                    <ul class="card_description">
+                        <li class="card_list_item">Built a fully functioning chess game built in Java with a graphical UI through Awt/Swing.</li>
+                        <li class="card_list_item">AI built with minimax and alpha-beta-pruning for optimal move decision making.</li>
+                        <li class="card_list_item">Class structure built on OOP principles of Abstract Classes/Inheritance.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://github.com/MatsalVistry/ChessAI" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_and_title">
+                        <h3 class="card_project">Linear Algebra Library</h3>
+                        <img src="./images/github_logo.png" class="card_image">
+                    </div>
+                    <h4 class="card_title">Personal Project</h4>
+                    <ul class="card_description">
+                        <li class="card_list_item">Built a linear algebra library in python without the use of external libraries.</li>
+                        <li class="card_list_item">Contains functionality for matrix arithmetic, normalization, inversion, and eigenvalues.</li>
+                        <li class="card_list_item">Decomposition support for RREF, ALU, Gram Shmidt, and SVD.</li>
+                    </ul>
+
+                    <div class="card_button_holder">
+                        <a href="https://github.com/MatsalVistry/Linear-Algebra-Library" target="_blank" class="card_button_link">
+                            <button class="card_button">View GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="qualifications">
+            <h1 class="portfolio_header">Qualifications and Skills</h1>
+
+            <div class="qualifications_body">
+                <p class="qualifications_text">
+                    A majority of my skillset revolves around backend development. 
+                    Solving logic problems, making optimizations, and finding clever solutions to complex tasks are some of the core 
+                    responsibilities of backend development, and align with my interests.
+                    <br><br>
+                    Although I intend to become a software engineer, I initially wanted to pursue a career in data science. 
+                    The idea of developing models to perform computations that aren't humanly possible is still fascinating to me. 
+                    That said, during a past data science internship, I found myself leaning towards development rather than analysis.
+                    Rather than tuning and constant iteration, I found myself enjoying the breadth of software engineering rather than 
+                    being a niche machine learning developer.
+                    <br><br>
+                    Constantly changing technologies are one of my favorite parts of software engineering. 
+                    In the past two years of being exposed to industry experience, I have learned and enjoyed the experience of working 
+                    with backend technologies, databases, cloud computing, and general tools. 
+                    <b></b>
+                    I have learned a lot through my internship experiences. 
+                    One of the biggest things being communication. 
+                    Not making assumptions and asking lots of questions can prevent lots of future issues and save time refactoring. 
+                    As an engineer, its natural to make a barebones plan and begin writing code for it, but this has almost always lead 
+                    to refactoring from my experience. 
+                    I also find communication to be very important when working in multidisciplinary teams since people always use
+                    technical language that is niche to their field. 
+                    This becomes exponentially worse the longer the clarifications are unresolved. 
+                    In my opinion, a good developer doesn't only write good code, but also communicates clearly about his current work 
+                    and future intentions.
+                    <br><br>
+                    My future goals are to become a solutions architect. 
+                    I can say this with confidence as it aligns with my interest in solving complex problems through past experience 
+                    and staying up to date with modern technologies.
+                </p>
+
+                <div class="qualifications_side">
+                    <a href="https://drive.google.com/file/d/1FCNDjgYCgMo15-W2HHqgVU9JtxkBkJa6/view?usp=sharing" class="resume_button" target="_blank">View Resume</a>
+                    <div class="qualifications_skills">
+                        <h2 class="skills_header">Skills</h2>
+                        <ul class="skills_list">
+                            <li class="skills_card">Java</li>
+                            <li class="skills_card">Python</li>
+                            <li class="skills_card">ASP.NET</li>
+                            <li class="skills_card">JS (Express.js, Node.js)</li>
+                            <li class="skills_card">C++</li>
+                            <li class="skills_card">SQL</li>
+                            <li class="skills_card">MongoDB Atlas</li>
+                            <li class="skills_card">AWS (CCP)</li>
+                            <li class="skills_card">Git</li>
+                            <li class="skills_card">Bash</li>
+                            <li class="skills_card">WSL</li>
+                            <li class="skills_card">Linux</li>
+                            <li class="skills_card">PuTTY</li>
+                            <li class="skills_card">Microcomputers</li>
+                            <li class="skills_card">Google Collab</li>
+                            <li class="skills_card">VS Code</li>
+                            <li class="skills_card">Heroku</li>
+                            <li class="skills_card">Docker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <h1 class="portfolio_header">Services</h1>
+
+            <div class="services_body">
+                <div class="services_card">
+                    <h2 class="services_header">FRC Robotics</h2>
+                    <h3 class="services_subheader">Outreach Volunteer</h3>
+                    <p class="services_text">
+                        I volunteer for the 5427 FRC robotics team on the outreach subteam.
+                        <br><br>
+                        As a volunteer, I work with the outreach team to teach and introduce those who are interested in STEM to robotics.
+                        This includes other elementary schools, middle schools, and even other high schools. 
+                        <br><br>
+                        I work to organize programming events to intruduce the application of programming in a real world setting
+                        through robotics.
+                    </p>
+                </div>
+                <div class="services_card">
+                    <h2 class="services_header">TAMU Robomaster Robotics</h2>
+                    <h3 class="services_subheader">Computer Vision Mentor</h3>
+                    <p class="services_text">
+                        As a former developer and computer vision lead of the TAMU robomaster robotics team, I still consider myself an active
+                        member. 
+                        <br><br>
+                        Members of the organization build multiple robots every single year to compete in competitions outlined by the 
+                        DJI organization. 
+                        <br><br>
+                        As a mentor, I work to advise the computer vision team on direction and best practices. 
+                        I try to prioritize mentorship over direct programming as I beleive one of the best ways to teach is by letting 
+                        individuals experience mistakes and failures.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
