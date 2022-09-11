@@ -101,6 +101,8 @@
     background-color: #dedede;
     margin-left: 15vw;
     padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio_header
@@ -232,6 +234,8 @@
 
     background-image: url("./images/img16.jpeg");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .qualifications_body
@@ -329,6 +333,8 @@
     background-color: #dedede;
     margin-left: 15vw;
     padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .services_body
