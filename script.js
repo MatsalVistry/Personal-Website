@@ -1,33 +1,59 @@
-function landingActivate()
+function landingActivate() // navbar link for home
 {
-    document.getElementsByClassName('landing')[0].style.removeProperty('display');;
-    document.getElementsByClassName('portfolio')[0].style.display = 'none';
-    document.getElementsByClassName('qualifications')[0].style.display = 'none';
-    document.getElementsByClassName('services')[0].style.display = 'none';
+    if(getStyle() == 'style.css')
+    {
+        setAllNone();
+        document.getElementsByClassName('landing')[0].style.removeProperty('display');
+    }
 }
 
-function portfolioActivate() 
+function portfolioActivate() // navbar link for portfolio
 {
-    document.getElementsByClassName('landing')[0].style.display = 'none';
+    if(getStyle() == 'style.css')
+    {
+        setAllNone();
+        document.getElementsByClassName('portfolio')[0].style.removeProperty('display');
+    }
+}
+
+function qualificationsActivate() // navbar link for qualifications
+{
+    if(getStyle() == 'style.css')
+    {
+        setAllNone();
+        document.getElementsByClassName('qualifications')[0].style.removeProperty('display');
+    }
+}
+
+function servicesActivate() // navbar link for services
+{
+    if(getStyle() == 'style.css')
+    {
+        setAllNone();
+        document.getElementsByClassName('services')[0].style.removeProperty('display');
+    }
+}
+
+function showAll()
+{
+    document.getElementsByClassName('landing')[0].style.removeProperty('display');
     document.getElementsByClassName('portfolio')[0].style.removeProperty('display');
-    document.getElementsByClassName('qualifications')[0].style.display = 'none';
-    document.getElementsByClassName('services')[0].style.display = 'none';
-}
-
-function qualificationsActivate()
-{
-    document.getElementsByClassName('landing')[0].style.display = 'none';
-    document.getElementsByClassName('portfolio')[0].style.display = 'none';
-    document.getElementsByClassName('qualifications')[0].style.removeProperty('display');
-    document.getElementsByClassName('services')[0].style.display = 'none';
-}
-
-function servicesActivate()
-{
-    document.getElementsByClassName('landing')[0].style.display = 'none';
-    document.getElementsByClassName('portfolio')[0].style.display = 'none';
-    document.getElementsByClassName('qualifications')[0].style.display = 'none';
+    document.getElementsByClassName('qualifications')[0].removeProperty('display');
     document.getElementsByClassName('services')[0].style.removeProperty('display');
+}
+
+function setAllNone() // shows none of the sections
+{
+    document.getElementsByClassName('landing')[0].style.display = 'none';
+    document.getElementsByClassName('portfolio')[0].style.display = 'none';
+    document.getElementsByClassName('qualifications')[0].style.display = 'none';
+    document.getElementsByClassName('services')[0].style.display = 'none';
+}
+
+function getStyle()
+{
+    var css = document.getElementById('stylesheet');
+    return css.getAttribute('href');
 }
 
 function themeSwap()
@@ -45,36 +71,20 @@ function themeSwap()
     {
         css.setAttribute('href', 'style.css');
         localStorage.setItem('currentStyle', 'style.css');
-        showHome();  
+        landingActivate();  
     }
-}
-
-function showAll()
-{
-    document.getElementsByClassName('landing')[0].style.removeProperty('display');
-    document.getElementsByClassName('portfolio')[0].style.removeProperty('display');
-    document.getElementsByClassName('qualifications')[0].removeProperty('display');
-    document.getElementsByClassName('services')[0].style.removeProperty('display');
-}
-
-function showHome()
-{
-    document.getElementsByClassName('landing')[0].style.removeProperty('display');;
-    document.getElementsByClassName('portfolio')[0].style.display = 'none';
-    document.getElementsByClassName('qualifications')[0].style.display = 'none';
-    document.getElementsByClassName('services')[0].style.display = 'none';
 }
 
 window.onload = function()
 {
-    // showHome();
+    // landingActivate();
     // var currentStyle = localStorage.getItem('currentStyle');
     // if (currentStyle)
     // {
     //     document.getElementById('stylesheet').setAttribute('href', currentStyle);
     //     if(currentStyle == 'style.css')
     //     {
-    //         showHome();
+    //         landingActivate();
     //     }
     //     else
     //     {
@@ -84,7 +94,7 @@ window.onload = function()
     // else
     // {
     //     document.getElementById('stylesheet').setAttribute('href', 'style.css');
-    //     showHome();
+    //     landingActivate();
     // }
     // document.getElementById('stylesheet').setAttribute('href', 'style2.css');
     showAll();

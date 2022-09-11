@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Varela Round", sans-serif;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .navbar 
@@ -28,6 +29,7 @@
     display: block;
     transition: 0.1s;
     font-size: medium;
+    text-decoration: none;
 }
   
 .navbar a:hover 
@@ -97,7 +99,7 @@
 
 .portfolio
 {
-    background-color: #f2f2f5;
+    background-color: #dedede;
     /* height: 100vh; */
     width: 85vw;
     margin-left: 15vw;
@@ -175,7 +177,9 @@
 
 .image_and_title 
 {
-    /* display: flex;
+    display: flex;
+    flex-direction: row;
+    /*
     justify-content: center;
     align-items: center; */
     align-items: left;
@@ -192,7 +196,9 @@
 .card_button_holder
 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+
     align-items: center;
     justify-content: space-evenly;
 }
@@ -200,13 +206,15 @@
 .card_button
 {
     display: block;
-    background: #F6B352;
+    background: green;
     color: white;
     padding: 15px 20px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: rgba(0,0,0,0.9);
     text-decoration: none;
+    border: 2px solid #282d38;
+
 }
 
 .card_button_link
@@ -216,7 +224,7 @@
 
 .card_button:hover
 {
-    background: #f9d29b;
+    background: rgb(51, 163, 51);
     color: white;
     cursor: pointer;
     text-decoration: none;
@@ -228,4 +236,170 @@
     flex-direction: column;
     justify-content: center;
     padding-right: 2vw;
+}
+
+.qualifications
+{
+    width: 85vw;
+    margin-left: 15vw;
+    padding-bottom: 5vh;
+
+    background-image: url("./images/img16.jpeg");
+    background-size: cover;
+}
+
+.qualifications_body
+{
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.qualifications_text
+{
+    color:#282d38;
+    background-color: rgb(255, 255, 255, 1);
+    border-radius: 10px;
+    width: 45vw;
+    height: fit-content;
+    margin: 5vh;
+    padding: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    overflow-y: hidden;
+    border: 2px solid #282d38;
+    font-size: large;
+}
+
+.qualifications_skills
+{
+    border-radius: 10px;
+    width: 25vw;
+    height: fit-content;
+    padding: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow-y: hidden;
+    border: 2px solid #282d38;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+.qualifications_side
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_card
+{
+    color: black;
+}
+
+.skills_header
+{
+    color: #282d38;
+    font-size: 3em;
+    text-shadow: 1em;
+    font-weight: 100;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+
+.resume_button
+{
+    display: block;
+    background: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.9);
+    text-decoration: none;
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #282d38;
+
+}
+
+.resume_button:hover
+{
+    background: rgb(51, 163, 51);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.services
+{
+    background-color: #dedede;
+    /* height: 100vh; */
+    width: 85vw;
+    margin-left: 15vw;
+    padding-bottom: 5vh;
+}
+
+.services_body
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services_card
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 45vw;
+    height: fit-content;
+    margin: 5vh;
+    padding: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* text-align: center; */
+    overflow-y: hidden;
+    border: 2px solid #282d38;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services_text
+{
+    color:black;
+    font-size: large;
+}
+
+.services_card_head
+{
+    padding-right: 2vw;
+}
+
+.services_header
+{
+    color: #282d38;
+    text-shadow: 1em;
+    font-weight: 100;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.services_subheader
+{
+    color: #282d38;
+    text-shadow: 1em;
+    font-weight: 100;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
 }
