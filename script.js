@@ -53,6 +53,7 @@ function setAllNone() // shows none of the sections
 function activateSection(section) // shows the specified section
 {
     document.getElementsByClassName(section)[0].style.display = 'block';
+    console.log("scrolling");
 }
 
 function getStyle()
@@ -80,7 +81,7 @@ function themeSwap()
     }
 }
 
-window.onload = function()
+function recoverStyle()
 {
     var currentStyle = localStorage.getItem('currentStyle');
     if (currentStyle)
@@ -101,4 +102,9 @@ window.onload = function()
         document.getElementById('stylesheet').setAttribute('href', 'style.css');
         landingActivate();
     }
+}
+
+window.onload = function()
+{
+    recoverStyle();
 }
