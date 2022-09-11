@@ -67,7 +67,7 @@ function showHome()
 
 window.onload = function()
 {
-    showHome();
+    // showHome();
     // var currentStyle = localStorage.getItem('currentStyle');
     // if (currentStyle)
     // {
@@ -87,5 +87,5 @@ window.onload = function()
     //     showHome();
     // }
     // document.getElementById('stylesheet').setAttribute('href', 'style2.css');
-    // showAll();
+    showAll();
 }
