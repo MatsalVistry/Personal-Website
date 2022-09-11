@@ -41,14 +41,11 @@
 {
     background-color: #22272e;
     height: 100vh;
-    width: 85vw;
     margin-left: 15vw;
-
     background-image: url("./images/img13.webp");
     background-size: cover;
     min-height: 100vh;
     max-height: fit-content;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -56,8 +53,8 @@
 
 .portrait 
 {
-    height: 30vh;
-    width: 30vh;
+    height: 20vh;
+    width: 20vh;
     border-radius: 10%;
     border: 3px solid white;
 }
@@ -65,16 +62,18 @@
 .left_side
 {
     margin-top: 20vh;
+    height: 20vh;
     margin-left: 2vw;
 }
 
 .landing_horizontal
 {
     margin-top: 20vh;
-
     display: flex;
     flex-direction: row;
     margin-right: 2vw;
+    height: 20vh;
+
 }
 
 .intro_header
@@ -100,8 +99,6 @@
 .portfolio
 {
     background-color: #dedede;
-    /* height: 100vh; */
-    width: 85vw;
     margin-left: 15vw;
     padding-bottom: 5vh;
 }
@@ -111,12 +108,9 @@
     color: #282d38;
     font-size: 3em;
     text-shadow: 1em;
-
-    /* align center */
     display: flex;
     justify-content: center;
     padding-top: 5vh;
-
     font-weight: 100;
     font-size: xx-large;
 }
@@ -135,7 +129,6 @@
     overflow-y: hidden;
     border: 2px solid #282d38;
     margin-left: 20vw;
-
     display: flex;
     justify-content: space-evenly;
 }
@@ -179,9 +172,6 @@
 {
     display: flex;
     flex-direction: row;
-    /*
-    justify-content: center;
-    align-items: center; */
     align-items: left;
 }
 
@@ -190,15 +180,12 @@
     padding-left: 1vh;
     height: 3vh;
     width: 3vh;
-    /* align left */
 }
 
 .card_button_holder
 {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-
     align-items: center;
     justify-content: space-evenly;
 }
@@ -240,7 +227,6 @@
 
 .qualifications
 {
-    width: 85vw;
     margin-left: 15vw;
     padding-bottom: 5vh;
 
@@ -252,7 +238,6 @@
 {
     display: flex;
     flex-direction: column-reverse;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -342,8 +327,6 @@
 .services
 {
     background-color: #dedede;
-    /* height: 100vh; */
-    width: 85vw;
     margin-left: 15vw;
     padding-bottom: 5vh;
 }
@@ -364,7 +347,6 @@
     margin: 5vh;
     padding: 2vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    /* text-align: center; */
     overflow-y: hidden;
     border: 2px solid #282d38;
     margin-left: 20vw;
