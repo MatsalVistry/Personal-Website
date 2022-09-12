@@ -5,6 +5,11 @@
     font-family: "Varela Round", sans-serif;
 }
 
+body
+{
+    padding-top: 40px;
+}
+
 .landing 
 {
     background-color: rgb(249, 247, 247);
@@ -62,11 +67,6 @@
     border-radius: 30%;
     border: 3px solid #F6B352;
     margin-right: 30vh;
-}
-
-body
-{
-    padding-top: 40px;
 }
 
 .navbar 

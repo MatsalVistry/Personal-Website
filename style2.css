@@ -49,6 +49,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-bottom-left-radius: 250% 160px;
+    border-bottom-right-radius: 250% 160px;
 }
 
 .portrait 
@@ -98,11 +100,15 @@
 
 .portfolio
 {
-    background-color: #dedede;
+    background-color: #e9e9e9;
     margin-left: 15vw;
     padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 250% 160px;
+    border-top-right-radius: 250% 160px;
+    border-bottom-left-radius: 250% 160px;
+    border-bottom-right-radius: 250% 160px;
 }
 
 .portfolio_header
@@ -236,6 +242,10 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 250% 160px;
+    border-top-right-radius: 250% 160px;
+    border-bottom-left-radius: 250% 160px;
+    border-bottom-right-radius: 250% 160px;
 }
 
 .qualifications_body
@@ -330,11 +340,13 @@
 
 .services
 {
-    background-color: #dedede;
+    background-color: #e9e9e9;
     margin-left: 15vw;
     padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 250% 160px;
+    border-top-right-radius: 250% 160px;
 }
 
 .services_body

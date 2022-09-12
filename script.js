@@ -1,40 +1,40 @@
-function landingActivate() // navbar link for home
+function landingActivate()
 {
     if(getStyle() == 'style.css')
     {
-        setAllNone();
+        showNoSections();
         activateSection('landing');
     }
 }
 
-function portfolioActivate() // navbar link for portfolio
+function portfolioActivate()
 {
     if(getStyle() == 'style.css')
     {
-        setAllNone();
+        showNoSections();
         activateSection('portfolio');
     }
 }
 
-function qualificationsActivate() // navbar link for qualifications
+function qualificationsActivate()
 {
     if(getStyle() == 'style.css')
     {
-        setAllNone();
+        showNoSections();
         activateSection('qualifications');
     }
 }
 
-function servicesActivate() // navbar link for services
+function servicesActivate()
 {
     if(getStyle() == 'style.css')
     {
-        setAllNone();
+        showNoSections();
         activateSection('services');
     }
 }
 
-function showAll() // shows all of the sections
+function showAllSections()
 {
     document.getElementsByClassName('landing')[0].style.display = 'flex';
     document.getElementsByClassName('portfolio')[0].style.display = 'flex';
@@ -42,7 +42,7 @@ function showAll() // shows all of the sections
     document.getElementsByClassName('services')[0].style.display = 'flex';
 }
 
-function setAllNone() // shows none of the sections
+function showNoSections()
 {
     document.getElementsByClassName('landing')[0].style.display = 'none';
     document.getElementsByClassName('portfolio')[0].style.display = 'none';
@@ -50,7 +50,7 @@ function setAllNone() // shows none of the sections
     document.getElementsByClassName('services')[0].style.display = 'none';
 }
 
-function activateSection(section) // shows the specified section
+function activateSection(section)
 {
     document.getElementsByClassName(section)[0].style.display = 'block';
     console.log("scrolling");
@@ -71,7 +71,7 @@ function themeSwap()
     {
         css.setAttribute('href', 'style2.css');
         localStorage.setItem('currentStyle', 'style2.css');
-        showAll();
+        showAllSections();
     }
     else
     {
@@ -94,7 +94,7 @@ function recoverStyle()
         }
         else
         {
-            showAll();
+            showAllSections();
         }
     }
     else
