@@ -358,3 +358,37 @@ body
     font-weight: 1;
     color: black;
 }
+
+.logo_button
+{
+    display: block;
+    background: orange;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.9);
+    text-decoration: none;
+    height: 2vh;
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #282d38;
+}
+
+.logo_button:hover
+{
+    background: #f9d29b;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo_holder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
