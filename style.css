@@ -121,7 +121,7 @@ body
     margin: auto;
     text-align: center;
     background-color: #1F2124;
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
     transform: translateY(30px);
 }
 
@@ -136,13 +136,13 @@ body
 {
     background-color: #1F2124;
     border-radius: 10px;
-    width: 35vw;
-    height: 45vh;
+    width: 40vw;
+    height: 50vh;
     margin: 5vh;
     padding: 2vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
-    overflow-y: hidden;
+    /* overflow-y: scroll; */
     border: 2px solid #F6B352;
 }
 
@@ -341,8 +341,8 @@ body
 {
     background-color: #1F2124;    
     border-radius: 10px;
-    width: 30vw;
-    height: 40vh;
+    width: 35vw;
+    height: 45vh;
     display: block;
     overflow: auto;
     margin: 5vh;
