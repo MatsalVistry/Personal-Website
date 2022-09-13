@@ -48,37 +48,25 @@ function recoverStyle()
 function landingActivate() // navbar landing button for theme 1
 {
     if(getStyle() == 'style.css')
-    {
-        showNoSections();
         activateSection('landing');
-    }
 }
 
 function portfolioActivate() // navbar portfolio button for theme 1
 {
     if(getStyle() == 'style.css')
-    {
-        showNoSections();
         activateSection('portfolio');
-    }
 }
 
 function qualificationsActivate() // navbar qualifications button for theme 1
 {
     if(getStyle() == 'style.css')
-    {
-        showNoSections();
         activateSection('qualifications');
-    }
 }
 
 function servicesActivate() // navbar services button for theme 1
 {
     if(getStyle() == 'style.css')
-    {
-        showNoSections();
         activateSection('services');
-    }
 }
 
 function showAllSections() // theme two activate
@@ -89,16 +77,13 @@ function showAllSections() // theme two activate
     document.getElementsByClassName('services')[0].style.display = 'flex';
 }
 
-function showNoSections() // theme 1 initial
+function activateSection(section) // navbar click for theme 1
 {
     document.getElementsByClassName('landing')[0].style.display = 'none';
     document.getElementsByClassName('portfolio')[0].style.display = 'none';
     document.getElementsByClassName('qualifications')[0].style.display = 'none';
     document.getElementsByClassName('services')[0].style.display = 'none';
-}
 
-function activateSection(section) // navbar click for theme 1
-{
     document.getElementsByClassName(section)[0].style.display = 'block';
     console.log("scrolling");
 }

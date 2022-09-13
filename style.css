@@ -37,8 +37,8 @@ body
 
 .navbar a:hover 
 {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(43, 43, 43);
+    /* color: black; */
     cursor: pointer;
 }
 
