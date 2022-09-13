@@ -10,64 +10,7 @@ body
     padding-top: 40px;
 }
 
-.landing 
-{
-    background-color: rgb(249, 247, 247);
-    width: 100%;
-    background-image: url("./images/img12.jpeg");
-    min-height: 100vh;
-    max-height: fit-content;
-}
-
-.intro_header
-{
-    letter-spacing: 0.05em;
-    padding-top: 10%;
-    color: white;
-    font-size: 5em;
-    text-align: center;
-    text-shadow: 2px 2px black;
-}
-
-.intro_header_title 
-{
-    color: #F6B352;
-    font-size: 2em;
-    font-weight: 100;
-    text-align: center;
-}
-
-.introduction 
-{
-    font-size: 1.5em;
-    border-radius: 10px;
-    padding: 20px;
-    width: 50%;
-    margin: auto;
-    text-align: left;
-    color: white;
-    text-shadow: 1.5px 1.5px black;
-
-    background-color: #1F2124;
-    border: 3px solid #F6B352;
-} 
-
-.landing_horizontal 
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-}
-
-.portrait 
-{
-    height: 40vh;
-    width: 40vh;
-    border-radius: 30%;
-    border: 3px solid #F6B352;
-    margin-right: 30vh;
-}
+/* NAVBAR */
 
 .navbar 
 {
@@ -98,6 +41,69 @@ body
     color: black;
     cursor: pointer;
 }
+
+/* LANDING PAGE */
+
+.landing 
+{
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+    background-image: url("./images/img12.jpeg");
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+.landing_header
+{
+    letter-spacing: 0.05em;
+    padding-top: 10%;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.landing_header_title 
+{
+    color: #F6B352;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.introduction 
+{
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+
+    background-color: #1F2124;
+    border: 3px solid #F6B352;
+} 
+
+.landing_body
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.portrait 
+{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 30%;
+    border: 3px solid #F6B352;
+    margin-right: 30vh;
+}
+
+/* PORTFOLIO PAGE */
 
 .portfolio_header 
 {
@@ -227,6 +233,8 @@ body
     text-decoration: none;
 }
 
+/* QUALIFICATIONS PAGE */
+
 .qualifications
 {
     background-color: #1F2124;
@@ -317,6 +325,8 @@ body
     transform: scale(1.2);
     cursor: pointer;
 }
+
+/* SERVICES PAGE */
 
 .services
 {
