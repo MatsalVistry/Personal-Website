@@ -28,7 +28,7 @@ body
 .navbar a 
 {
     float: left;
-    color: #F6B352;
+    color: blue;
     text-align: center;
     padding: 15px 20px;
     width: 20%;
@@ -65,7 +65,7 @@ body
 
 .landing_header_title 
 {
-    color: #F6B352;
+    color: blue;
     font-size: 2em;
     font-weight: 100;
     text-align: center;
@@ -83,7 +83,7 @@ body
     text-shadow: 1.5px 1.5px black;
 
     background-color: #1F2124;
-    border: 3px solid #F6B352;
+    border: 3px solid blue;
 } 
 
 .landing_body
@@ -99,7 +99,7 @@ body
     height: 40vh;
     width: 40vh;
     border-radius: 30%;
-    border: 3px solid #F6B352;
+    border: 3px solid blue;
     margin-right: 30vh;
 }
 
@@ -115,7 +115,7 @@ body
     padding-bottom: 5vh;
     
 
-    border: 2px solid #F6B352;
+    border: 2px solid blue;
     border-radius: 5px;
     width: 40%;
     margin: auto;
@@ -143,7 +143,7 @@ body
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
     /* overflow-y: scroll; */
-    border: 2px solid #F6B352;
+    border: 2px solid blue;
 }
 
 .card_project
@@ -159,7 +159,7 @@ body
 {
     font-size: 1.5em;
     font-weight: 1;
-    color: #F6B352;
+    color: blue;
 }
 
 .card_description
@@ -211,7 +211,7 @@ body
 .card_button
 {
     display: block;
-    background: #F6B352;
+    background: blue;
     color: white;
     padding: 15px 20px;
     margin: 20px 0;
@@ -261,7 +261,7 @@ body
     background-color: #1F2124;
     color: white;
     border-radius: 10px;
-    border: 2px solid #F6B352;
+    border: 2px solid blue;
 }
 
 .qualifications_side
@@ -279,7 +279,7 @@ body
 .resume_button
 {
     display: block;
-    background: #F6B352;
+    background: blue;
     color: white;
     padding: 15px 20px;
     margin: 20px 0;
@@ -298,7 +298,7 @@ body
 
 .skills_header
 {
-    color:#F6B352;
+    color:blue;
     padding-bottom: 2vh;
     text-align: center;
 }
@@ -309,7 +309,7 @@ body
     width: fit-content;
     background-color: #1F2124;
     border-radius: 10px;
-    border: 2px solid #F6B352;
+    border: 2px solid blue;
     color: white;
 }
 
@@ -349,13 +349,13 @@ body
     padding: 5vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     overflow: hidden;
-    border: 2px solid #F6B352;
+    border: 2px solid blue;
     color: white;
 }
 
 .services_subheader
 {
-    color:#F6B352;
+    color:blue;
     padding-top: 1vh;
     padding-bottom: 2vh;
 }
@@ -372,7 +372,7 @@ body
 .logo_button
 {
     display: block;
-    background: orange;
+    background: blue;
     color: white;
     padding: 15px 20px;
     margin: 20px 0;
